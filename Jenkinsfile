@@ -6,5 +6,7 @@ node{
       sh 'mvn package'
     
     }
-    
+    dir('subDir') {
+    checkout scm
+    }
 }
