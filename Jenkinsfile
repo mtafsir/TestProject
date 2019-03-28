@@ -7,6 +7,6 @@ node{
     
     }
     dir('subDir') {
-    checkout scm
+    checkout demo
     }
 }
