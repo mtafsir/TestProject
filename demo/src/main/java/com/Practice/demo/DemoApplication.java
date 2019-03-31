@@ -14,7 +14,7 @@ public class DemoApplication {
 		//update port
 		SpringApplication app = new SpringApplication(DemoApplication.class);
         app.setDefaultProperties(Collections
-          .singletonMap("server.port", "8083"));
+          .singletonMap("server.port", "9080"));
         app.run(args);
         //hello
 	}
