@@ -23,6 +23,7 @@ public class HellowWorldController {
 	//
 	@GetMapping(path="/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
+		System.out.println("hello");
 		return new HelloWorldBean("Hello World");
 	}//end of helloWorldBean
 	
